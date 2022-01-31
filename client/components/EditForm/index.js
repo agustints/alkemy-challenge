@@ -5,11 +5,13 @@ import { useEffect, useState } from "react";
 import { useEditMovement } from "../../services/editMovements";
 import { useCategories } from "../../services/getCategories";
 import moment from "moment";
+import { useForm } from "react-hook-form";
 export default function index({ id, onCloseModal }) {
   const { data: categories } = useCategories();
   const editMovement = useEditMovement();
   const getMovementsById = useMovementsById();
   const { data: movement } = getMovementsById;
+
   const {
     register,
     handleSubmit,
