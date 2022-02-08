@@ -5,7 +5,7 @@
 > **Alkemy Web** https://www.alkemy.org/ <br/>
 > **Usuario** alkemy@challenge.com <br/>
 > **Contraseña** admin<br/>
-> **Deploy/Despliegue** La app se desplegará en linea el Lunes 07 de Febrero
+> **Deploy/Despliegue** https://www.alkemy.ml/ | Link público de la Aplicación
 
 Atención, antes de ejecutar la aplicación, se debe introducir la sentencia a continuación en la Base de Datos (MySQL)</br>
 `SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));`
